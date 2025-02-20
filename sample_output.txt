@@ -1,0 +1,144 @@
+Creating profiles and adding to the network...
+Name: John Doe
+	Status: My name is John.
+	# of friends: 0
+Friends:
+
+Name: Jane Doe
+	Status: My name is Jane.
+	# of friends: 0
+Friends:
+
+Name: Billy Bob
+	Status: My name is Billy Bob!
+	# of friends: 0
+Friends:
+
+Name: John Smith
+	Status: My name is also John.
+	# of friends: 0
+Friends:
+
+-------------------------------------
+
+Creating friendships.
+
+Name: John Doe
+	Status: My name is John.
+	# of friends: 2
+Friends:
+	Jane Doe
+	John Smith
+
+Name: Jane Doe
+	Status: My name is Jane.
+	# of friends: 3
+Friends:
+	John Doe
+	Billy Bob
+	John Smith
+
+Name: Billy Bob
+	Status: My name is Billy Bob!
+	# of friends: 2
+Friends:
+	Jane Doe
+	John Smith
+
+Name: John Smith
+	Status: My name is also John.
+	# of friends: 3
+Friends:
+	John Doe
+	Jane Doe
+	Billy Bob
+
+-------------------------------------
+
+Changing statuses / names.
+
+Name: John Doe
+	Status: My name is John.
+	# of friends: 2
+Friends:
+	Jane Smith
+	John Smith
+
+Name: Jane Smith
+	Status: Now Mrs. Smith!
+	# of friends: 3
+Friends:
+	John Doe
+	Billy Bob
+	John Smith
+
+Name: Billy Bob
+	Status: My name is Billy Bob!
+	# of friends: 2
+Friends:
+	Jane Smith
+	John Smith
+
+Name: John Smith
+	Status: Just got married!
+	# of friends: 3
+Friends:
+	John Doe
+	Jane Smith
+	Billy Bob
+
+-------------------------------------
+
+Ending a friendship.
+
+Name: John Doe
+	Status: My name is John.
+	# of friends: 2
+Friends:
+	Jane Smith
+	John Smith
+
+Name: Jane Smith
+	Status: Now Mrs. Smith!
+	# of friends: 2
+Friends:
+	John Doe
+	John Smith
+
+Name: Billy Bob
+	Status: My name is Billy Bob!
+	# of friends: 1
+Friends:
+	John Smith
+
+Name: John Smith
+	Status: Just got married!
+	# of friends: 3
+Friends:
+	John Doe
+	Jane Smith
+	Billy Bob
+
+-------------------------------------
+
+Removing John.
+
+Name: Jane Smith
+	Status: Now Mrs. Smith!
+	# of friends: 1
+Friends:
+	John Smith
+
+Name: Billy Bob
+	Status: My name is Billy Bob!
+	# of friends: 1
+Friends:
+	John Smith
+
+Name: John Smith
+	Status: Just got married!
+	# of friends: 2
+Friends:
+	Jane Smith
+	Billy Bob
+
